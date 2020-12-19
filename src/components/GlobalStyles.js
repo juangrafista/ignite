@@ -42,5 +42,8 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
     color: #333;
   }
+  img{
+    display:block;
+  }
 `
 export default GlobalStyles
