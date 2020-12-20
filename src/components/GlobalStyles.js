@@ -20,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
   body{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-    
+    padding-bottom: 5rem;
   }
   h2{
     font-size: 3rem;

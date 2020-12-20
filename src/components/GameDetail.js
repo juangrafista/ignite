@@ -70,10 +70,10 @@ const GameDetail = ({ pathId }) => {
     <>
       {!isLoading && (
         <CardShadow className='shadow' onClick={exitDetailHandler}>
-          <Detail LayoutId={pathId}>
+          <Detail layoutId={pathId}>
             <Stats>
               <div className='rating'>
-                <motion.h3 LayoutId={`title ${pathId}`}>{game.name}</motion.h3>
+                <motion.h3 layoutId={`title ${pathId}`}>{game.name}</motion.h3>
                 <p>Rating: </p>
                 {getStars(game.rating)}
               </div>
@@ -92,7 +92,7 @@ const GameDetail = ({ pathId }) => {
             </Stats>
             <Media>
               <motion.img
-                LayoutId={`image ${pathId}`}
+                layoutId={`image ${pathId}`}
                 src={smallImage(game.background_image, 640)}
                 alt='background_image'
               />
